@@ -1,13 +1,58 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body,header, main{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
+main{
+  padding-bottom:  2rem;
+}
+header{
+  background-image: linear-gradient(#4A72FF,#0039FF);
+  text-align: center;
+}
+header p{
+  color: #ffff;
+  font-weight: 500;
+  padding-top: 0;
+  padding-bottom:  0.5rem;
+}
+.App-logo{
+  width: 15%;
+  filter: brightness(0) invert(1);
+  padding: 0.5rem;
+}
+.dropDown{
+  display: inline-block;
+  margin: 1rem;
+  float: right;
+}
+.cardItem{
+  margin-bottom: 1rem;
+  width: 17rem;
+  box-shadow: 6px 6px 5px grey;
+}
+.cardTitle{
+  font-weight: 800;
+}
+.green{
+  color: green;
+}
+.grey{
+  color:grey;
+}
+footer{
+  padding: 3rem;
+  text-align: center;
+  background-color: #4A72FF;
+  color: #ffff;
+  font-weight: 500;
+}
+@media screen and (max-width: 800px) {
+   .cardItem{
+     margin: auto;
+     margin-bottom: 1rem;
+   }
+  }
