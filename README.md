@@ -1,5 +1,18 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This is a project I built with Create-react-app and React-bootstrap to display and sort Information from JSON file. Restaurant's names are sort and display using React State. First I put JSON Objects into an array and mapping them then display them into columns with pictures, online status and delivery fees. The design is inspired by Wolt.com
+
+You can visit demo here: https://wolt-app.netlify.com
+
+Here is a screenshot of the application: 
+
+![Screenshot](/img/screenshot.png)
+
+
+
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
